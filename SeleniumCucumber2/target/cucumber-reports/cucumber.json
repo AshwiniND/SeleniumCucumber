@@ -1,0 +1,260 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-12-11T10:03:47.658Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9960879700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "seleniumSteps.setUp()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Check the typing of keyword",
+        "description": "",
+        "id": "to-type-a-keyword-in-google-website;check-the-typing-of-keyword;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1242193900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "seleniumSteps.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 32998973000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "navigate to \"http://elearningm1.upskills.in/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://elearningm1.upskills.in/\"",
+                  "offset": 12
+                }
+              ],
+              "location": "seleniumSteps.navigate_to(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 13527308200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "We click on Sign up button page will redirect to registration page",
+            "match": {
+              "location": "seleniumSteps.we_click_on_Sign_up_button_page_will_redirect_to_registration_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6866173700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "enter firstName \"Ashwini\" lastName \"N D\" eMail \"bpl2xnb@ups.com\" userName \"Ashwini20\" Pass \"Password1\" confirmPass \"Password1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Ashwini\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"N D\"",
+                  "offset": 35
+                },
+                {
+                  "val": "\"bpl2xnb@ups.com\"",
+                  "offset": 47
+                },
+                {
+                  "val": "\"Ashwini20\"",
+                  "offset": 74
+                },
+                {
+                  "val": "\"Password1\"",
+                  "offset": 91
+                },
+                {
+                  "val": "\"Password1\"",
+                  "offset": 115
+                }
+              ],
+              "location": "seleniumSteps.enter_firstName_lastName_eMail_userName_Pass_confirmPass(String,String,String,String,String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10379996200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "We click on Register button",
+            "match": {
+              "location": "seleniumSteps.we_click_on_Register_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5117754700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "We validate the \"Ashwini\" and \"N D\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Ashwini\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"N D\"",
+                  "offset": 30
+                }
+              ],
+              "location": "seleniumSteps.we_validate_the(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5156599700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "click on img icon in top right corner",
+            "match": {
+              "location": "seleniumSteps.click_on_img_icon_in_top_right_corner()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5071183500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "validate email id\"bpl2xnb@ups.com\" which is entered.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"bpl2xnb@ups.com\"",
+                  "offset": 17
+                }
+              ],
+              "location": "seleniumSteps.validate_email_id_which_is_entered(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 11110163300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "click on Home page tab to return to home page",
+            "match": {
+              "location": "seleniumSteps.click_on_Home_page_tab_to_return_to_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 12892184100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "click on Compose link to send message to other user.",
+            "match": {
+              "location": "seleniumSteps.click_on_Compose_link_to_send_message_to_other_user()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6998298700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "enter Send to email id\"kaushik@ups.com\" and subject \"testMail\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"kaushik@ups.com\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"testMail\"",
+                  "offset": 52
+                }
+              ],
+              "location": "seleniumSteps.enter_Send_to_email_id_and_subject(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7869588100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "enter Message description.",
+            "match": {
+              "location": "seleniumSteps.enter_Message_description()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9744598900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Click on send message",
+            "match": {
+              "location": "seleniumSteps.click_on_send_message()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5076939200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "validate the acknoledgement message displayed.",
+            "match": {
+              "location": "seleniumSteps.validate_the_acknoledgement_message_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To type a keyword in Google website",
+    "description": "",
+    "id": "to-type-a-keyword-in-google-website",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Selenium.feature",
+    "tags": []
+  }
+]

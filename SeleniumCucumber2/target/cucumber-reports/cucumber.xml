@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="144.141137">
+<testcase classname="To type a keyword in Google website" name="Check the typing of keyword" time="144.141137">
+<system-out><![CDATA[Given navigate to "http://elearningm1.upskills.in/".........................passed
+When We click on Sign up button page will redirect to registration page.....passed
+Then enter firstName "Ashwini" lastName "N D" eMail "bpl2xnb@ups.com" userName "Ashwini20" Pass "Password1" confirmPass "Password1".passed
+And We click on Register button.............................................passed
+Then We validate the "Ashwini" and "N D"....................................passed
+Then click on img icon in top right corner..................................passed
+Then validate email id"bpl2xnb@ups.com" which is entered....................passed
+Then click on Home page tab to return to home page..........................passed
+And click on Compose link to send message to other user.....................passed
+Then enter Send to email id"kaushik@ups.com" and subject "testMail".........passed
+And enter Message description...............................................passed
+And Click on send message...................................................passed
+Then validate the acknoledgement message displayed..........................passed
+]]></system-out>
+</testcase>
+</testsuite>
